@@ -1,7 +1,11 @@
 import React from 'react';
 
-const RestartButton = () => {
-    return <button className="restartButton">Restart Button</button>;
+const RestartButton = ({ onClick }) => {
+    return (
+        <button className="restartButton" onClick={onClick}>
+            Play Again
+        </button>
+    );
 };
 
 export default RestartButton;

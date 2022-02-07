@@ -7,7 +7,6 @@ function App() {
         <div className="App">
             <h1> Tic-Tac-Toe</h1>
             <Game />
-            <RestartButton />
         </div>
     );
 }
